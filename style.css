@@ -1,0 +1,72 @@
+body {
+  background: black url("./galaxy.gif");
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+}
+
+.bottomBorder {
+  padding-bottom: 10px;
+  border-bottom: 2px solid aqua;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  background-color: #3e3d3d8e;
+  margin-bottom: 100px;
+  height: auto;
+  gap: 50px;
+}
+
+.title {
+  align-self: start;
+  margin-left: 100px;
+  color: aqua;
+}
+
+a {
+  margin: 15px auto;
+}
+button {
+  height: 70px;
+  width: 210px;
+  border-radius: 35px;
+  background-color: black;
+  color: #0adada;
+  border: none;
+  font-size: 20px;
+}
+button:hover {
+  transform: translateY(-10px);
+}
+button:active {
+  color: black;
+  background-color: #0adada;
+}
+
+footer {
+  height: auto;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+  background-color: #3e3d3d8e;
+}
+
+footer p {
+  margin: 0;
+  font-size: 30px;
+  color: #0adada;
+}
