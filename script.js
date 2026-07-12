@@ -1,4 +1,4 @@
-import { Data } from "./assets/data.js";
+import { Data } from "./data.js";
 
 const PROJECTS = [...Data];
 
