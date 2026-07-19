@@ -62,4 +62,11 @@ export const Data = [
     Note: "practice on API",
     Type: "javascript",
   },
+    {
+    ProjectName: "Cybrog ",
+    ProjectUrl:
+      "https://cyborg-fe.vercel.app/?_vercel_share=A8QoRTgRPOmfsSyn8uy78l0KfM7VUcJy",
+    Note: "simoultion for cyborg",
+    Type: "React",
+  },
 ];
